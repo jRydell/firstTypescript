@@ -5,6 +5,7 @@ import ColorBox from "./ColorBox";
 import Counter from "./Counter";
 import Header from "./Header"
 import List from "./List";
+import PrettyText from "./PrettyText";
 import QuestList from "./QuestList";
 import TextToAlert from "./TextToAlert";
 
@@ -17,14 +18,15 @@ function App() {
       <Header>
         <h1>Rubrik</h1>
        </Header>
-       {/* <CarList /> */}
+       <PrettyText />
+       <CarList />
        <Counter />
        <TextToAlert />
        <ChangeText />
        <Addition />
        <ColorBox />
        <List />
-       {/* <QuestList /> */}
+       <QuestList />
     </>
   );
 };
