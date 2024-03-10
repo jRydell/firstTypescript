@@ -8,6 +8,7 @@ import Header from "./Header"
 import List from "./List";
 import PrettyText from "./PrettyText";
 import QuestList from "./QuestList";
+import Stringer from "./Stringer";
 import TextToAlert from "./TextToAlert";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Header>
         <h1>Rubrik</h1>
        </Header>
+       <Stringer />
        <Counter1 />
        <PrettyText />
        <CarList />

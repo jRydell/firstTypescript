@@ -32,7 +32,7 @@ const counterReducer = (state: State, action: Action) => {
     case ACTION.DOUBLE:
       return { count: state.count * 2 };
     case ACTION.ADD_INPUT:
-      return {count: state.count + Number(action.payload) }
+      return {count: state.count + Number(action.payload) };
 
 
       
