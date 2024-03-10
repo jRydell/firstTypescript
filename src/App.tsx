@@ -3,6 +3,7 @@ import CarList from "./CarList";
 import ChangeText from "./ChangeText";
 import ColorBox from "./ColorBox";
 import Counter from "./Counter";
+import Counter1 from "./Counter1";
 import Header from "./Header"
 import List from "./List";
 import PrettyText from "./PrettyText";
@@ -18,6 +19,7 @@ function App() {
       <Header>
         <h1>Rubrik</h1>
        </Header>
+       <Counter1 />
        <PrettyText />
        <CarList />
        <Counter />
